@@ -36,11 +36,6 @@ def main():
             self.screen.blit(self.game_over_text,(x,y))
             self.screen.blit(self.restart_text,(x + 60 ,y + 55))
             
-
-
-   
-       
-        
     screen_init = Screen()
     screen_init.set_screen_caption
 
@@ -75,8 +70,6 @@ def main():
             self.rockets_shot = []
             self.out_of_rockets = False
             self.number_of_rockets = 0
-
-
 
     # TO DISPLAY THE BULLET
 
